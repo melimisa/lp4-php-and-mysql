@@ -23,6 +23,6 @@
 		$linha = $cmm->fetch(PDO:: FETCH_ASSOC);
 	}
 
-	var_dump($linha);
+	//var_dump($linha);
 
 ?>

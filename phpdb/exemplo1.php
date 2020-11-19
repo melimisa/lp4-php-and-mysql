@@ -2,6 +2,8 @@
 	//conexao com banco de dados
 	$pdo = new PDO('mysql:host=localhost;dbname=phpdb', 'root', '');
 
+
+	//primeiro preparo o comando a ser executado
 	$stmt = $pdo->prepare('create table automovel (
 							placa varchar(10) not null primary key,
 							marca_modelo varchar(50) not null,
